@@ -1,0 +1,209 @@
+
+body {
+	font-family: Lato;
+	color: black;
+
+
+}
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+	background: black;
+	color: white;
+	margin-top: 50px;
+}
+
+
+
+
+#tspIntro {
+	text-align: center;
+	padding-top: 25%;
+	padding-bottom: 25%;
+	background-image: url("imgs/tsp.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#compbioIntro{
+	text-align: center;
+	padding-top: 25%;
+	padding-bottom: 25%;
+	background-image: url("imgs/compbio.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#pokeIntro{
+	text-align: center;
+	padding-top: 25%;
+	padding-bottom: 25%;
+	background-image: url("imgs/poke.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#resumeIntro {
+	text-align: center;
+	padding-top: 25%;
+	padding-bottom: 25%;
+	background-image: url("https://wallpapercave.com/wp/wp2858553.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+#contactIntro {
+	text-align: center;
+	padding-top: 25%;
+	padding-bottom: 25%;
+	background-image: url("https://www.mykonosgrand.gr/wp-content/uploads/2014/05/Beautiful-Nature-Wallpapers-for-Background-HD-Wallpaper.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+
+#about {
+	margin-top: 10%;
+	text-align: center;
+}
+
+#aboutMe {
+	text-transform: uppercase;
+}
+
+.image-box {
+	width: 25%;
+	margin-top: 30px;
+	border-radius: 50%;
+	margin-bottom: 50px;
+}
+
+.btn {
+  letter-spacing: 1px;
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 12px 30px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+
+.btn:hover {
+  background-color: gray;
+  transform: scale(1.2);
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+#projects li{
+	list-style: none;
+	margin: 10px;
+}
+
+
+
+
+#contact li {
+	display: inline-block;
+	margin:6px;
+	list-style: none;
+}
+
+#contact ul li a{
+  color: black;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+
+#contact li a:hover{
+	color: gray;
+}
+
+#contact {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.btn {
+	color: white;
+	background: black;
+}
+
+.responsive {
+	width: 100%;
+	height: auto;
+}
+
+#projects {
+	margin-top: 80px;
+	text-align: center;
+}
+
+#note {
+	margin-top: 20px;
+}
+
+.carousel-caption{
+	font-family: 'Mansalva', cursive;
+}
+
+#tspDescription{
+	max-width: 60%;
+}
+#compbioDescription{
+	max-width: 60%;
+}
+
+
+#tspImg{
+	max-width: 100%;
+}
+
+.bruddapic {
+	margin-left: 100px;
+}
+
+.titleText {
+	margin: 0 auto;
+	font-family: 'Spartan', sans-serif
+}
+
+.bruddaPic { 
+	width: 60%;
+	height: auto;
+	margin-top: 50px;
+	margin-left: 50px;
+	border-radius: 25px;
+	float: left;
+}
+
+.bruddaText {
+	font-family: 'Spartan', sans-serif
+}
+
+.bruddaTitle {
+	font-family: 'Oxanium', sans-serif
+}
+
+.contactText {
+	margin-top: 50px;
+	font-family: 'Spartan', sans-serif;
+	margin: 50px auto 0px auto;
+	width: 30%;
+	border: 2px solid black;
+	text-align: center;
+}
+
+/* .img-fluid {
+	max-width: 100%;
+	max-height: 30%;
+} */
